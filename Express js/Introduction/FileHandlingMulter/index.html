@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Express File Upload with Multer </title>
+</head>
+
+<body>
+    <form action="http://localhost:313/" method="post" enctype="multipart/form-data">
+        <input type="file" name="avatar" multiple>
+        <input type="file" name="gallery" multiple>
+        <!--Multiple file upload korar jonno ekhane multiple likhe dite hoy-->
+        <!-- <input type="text" value="name"> multer use kore form er data o handle kora jay  
+            name ke form data hishebe pete chaile .. multer e .. upload.none() use kore dibo .. tailei hobe 
+            mane ami kono file upload korte chacchi na .. shudhu form data hishebe upload korte chacchi 
+            tokhon req.body er moddhe form data gula thakbe 
+        -->
+        <input type="submit" value="Submit1">
+    </form>
+</body>
+
+</html>

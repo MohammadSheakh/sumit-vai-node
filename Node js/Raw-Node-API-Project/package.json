@@ -1,0 +1,15 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "description": "Uptime Monitoring API",
+  "main": "index.js",
+  "scripts": {
+    "start" : "NODE_ENV=staging nodemon index",
+    "production" : "NODE_ENV=production nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohammad Bin Ab. Jalil Sheakh-01518419801",
+  "license": "ISC"
+}
+
+
